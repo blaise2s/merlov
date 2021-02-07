@@ -1,0 +1,42 @@
+.parallaxSandwich {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  text-align: center;
+}
+
+.landing {
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  scroll-snap-align: start;
+}
+
+.messageContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.message {
+  padding: 2rem;
+  background-color: #ffffff8f;
+  border-radius: 1rem;
+  color: #000000;
+}
+
+.contactUs {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+
+  &:hover {
+    background-color: #e1e1e1 !important;
+  }
+}
